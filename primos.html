@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<script>
+
+		function primos (n){
+			debugger;
+			var numerosADevolver= new Array ()
+
+			for (i = 2; i <= 100; i++) {
+				if (i % 2 === 0) {
+			  		console.log(0)
+				}else {
+					console.log(i + " Es un numero primo")
+					if (numerosADevolver.length <= n){
+						numerosADevolver.push(i)
+					}
+				
+				}
+			}
+			return numerosADevolver
+		}
+
+	var a = primos(15);
+
+
+
+
+
+	/*function primo(numero) {
+
+	for (var i = 2; i < numero; i++) {
+
+	
+	}
+
+	}
+
+	return numero !== 1;
+	}*/
+	</script>
+
+</body>
+</html>
